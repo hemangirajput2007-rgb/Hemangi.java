@@ -8,13 +8,13 @@ int multiply(int a, int b){
     return a * b ;
 }
 public static void main(String[]args){
-    int x =10, y = 3;
+    int x =20, y = 30;
     System.out.println("x + y =" + (x + y));
     System.out.println("x - y =" +(x - y));
     System.out.println("x * y =" +(x * y));
     System.out.println("x % y =" +(x % y));
 
-    byte a = 10, b = 20;
+    byte a = 30, b = 10;
     int result = a+b;
     System.out.println("Arithmetic Promotion Result:" + result);
 
