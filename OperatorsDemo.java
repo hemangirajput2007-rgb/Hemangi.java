@@ -19,8 +19,8 @@ public static void main(String[]args){
     System.out.println("Arithmetic Promotion Result:" + result);
 
     OperatorsDemo obj = new OperatorsDemo();
-    obj.add(5, 7);
-    int product = obj.multiply(4, 6);
+    obj.add(6, 8);
+    int product = obj.multiply(5, 9);
     System.out.println("Multiplication: " + product);
 }
 }
