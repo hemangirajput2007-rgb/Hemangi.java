@@ -37,12 +37,12 @@ class Student {
 public class FunctionDemo {
     public static void main(String[] args) {
         Calculator calc = new Calculator();
-        System.out.println("Add two integers: " + calc.add(5,10));
-        System.out.println("Add three integers: " + calc.add(5,10, 15));
-        System.out.println("Add two doubles: " + calc.add(5.5,4.5));
+        System.out.println("Add two integers: " + calc.add(10,15));
+        System.out.println("Add three integers: " + calc.add(10,15, 20));
+        System.out.println("Add two doubles: " + calc.add(6.5,3.5));
 
         Student s1 = new Student();
-        Student s2 = new Student("Nitin", 22);
+        Student s2 = new Student("Hemangi", 23);
         Student s3 = new Student(s2);
 
         s1.display();
